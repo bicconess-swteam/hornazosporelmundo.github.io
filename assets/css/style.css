@@ -1,0 +1,17 @@
+code {
+    font-family: $Monospace;
+    font-size: 0.8em;
+}
+
+.site-head {
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slogan {
+    text-align:center;
+}

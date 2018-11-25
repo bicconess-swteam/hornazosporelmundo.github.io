@@ -1,6 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
 ---
+
+<!-- <div style="position: relative; margin-bottom:3%;">
+   <img src="/img/coverPage.jpg" alt="Cover Page Image" />
+   <img style="display:block; margin:auto; width:20%; margin-top:-4%;" src="/img/avatarFace.png" alt="Avatar Image"/>
+</div> -->
