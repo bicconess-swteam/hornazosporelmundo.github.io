@@ -10,6 +10,10 @@ For it, we are going to use Jekyll and we will explain how to set up a blog with
 - ### To test your changes on your computer
         bundle exec jekyll serve
 
+## Configuration
+The Jekyll configuration is described in _config.yml file.
+- ### We could have two types of configuration, one for production (**_config.yml**) and other for develop (**_develop_config.yml**)
+        bundle exec jekyll serve --config _developer_config.yml
 
 
 More information -> https://jekyllrb.com/
