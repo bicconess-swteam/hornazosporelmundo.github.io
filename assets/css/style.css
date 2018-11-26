@@ -15,3 +15,11 @@ code {
 .slogan {
     text-align:center;
 }
+
+.footer-right a{
+    color: #574c4f;
+}
+.footer-right {
+    float: right;
+    text-decoration: none;
+}
