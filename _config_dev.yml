@@ -37,4 +37,5 @@ assets:
 plugins:
   - jekyll-feed
   - jekyll-octicons
+  - jekyll-assets
 
