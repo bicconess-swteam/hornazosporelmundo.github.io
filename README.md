@@ -12,8 +12,9 @@ For it, we are going to use Jekyll and we will explain how to set up a blog with
 
 ## Configuration
 The Jekyll configuration is described in _config.yml file.
-- ### We could have two types of configuration, one for production (**_config.yml**) and other for develop (**_develop_config.yml**)
+- ### We could have two types of configuration:
         bundle exec jekyll serve --config _developer_config.yml
+  (one for production (**_config.yml**) and other for develop (**_config_dev.yml**))
 
 
 More information -> https://jekyllrb.com/
