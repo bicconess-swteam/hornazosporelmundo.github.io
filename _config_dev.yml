@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""
+url: "127.0.0.0:4000"
 twitter_username: 
 github_username: 
 
@@ -20,22 +20,8 @@ kramdown:
 #without other theme
 #theme: minima
 
-# Assets
-exclude: [CONTRIBUTING.md', 'Gemfile', 'Gemfile.lock', 'GLOSSARY', 'Procfile', 'Rakefile', 'README.md', 'vendor', 'LICENSE']
-assets:
-  compress:
-    css: sass
-    js:  uglifier
-  digest: true
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-
 #Plugin
 plugins:
   - jekyll-feed
   - jekyll-octicons
-  - jekyll-assets
 
