@@ -1,0 +1,35 @@
+code {
+    font-family: $Monospace;
+    font-size: 0.8em;
+}
+
+.site-head {
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slogan {
+    text-align:center;
+}
+
+.wrapper-footer {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    border-top: 3px solid #F7CAC9;
+    padding: 30px 0;
+    overflow: hidden;}
+
+.footer-right a{
+    color: #574c4f;
+}
+.footer-right {
+    float: right;
+    text-decoration: none;
+}

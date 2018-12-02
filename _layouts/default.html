@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+{% assign language = site.default_lang %}
+{% if page.lang %}
+  {% assign language = page.lang %}
+{% endif %}
+{% assign locale = site.data['locales'][language] %}
+<html lang="{{ language }}{% if locale.lang_country %}-{{ locale.lang_country }}{% endif %}">
+    {% include head.html %}
+    <body>
+        <div id="wrapper">
+            {% include header.html %}
+            <div class="inner">
+                <section>
+                {{ content }}
+                </section>
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

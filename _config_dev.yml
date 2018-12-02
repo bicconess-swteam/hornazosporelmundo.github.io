@@ -11,8 +11,30 @@ twitter_username:
 github_username: 
 
 # Build settings
+#Markdown
 markdown: kramdown
-theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+#without other theme
+#theme: minima
+
+# Assets
+exclude: [CONTRIBUTING.md', 'Gemfile', 'Gemfile.lock', 'GLOSSARY', 'Procfile', 'Rakefile', 'README.md', 'vendor', 'LICENSE']
+assets:
+  compress:
+    css: sass
+    js:  uglifier
+  digest: true
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+
+#Plugin
 plugins:
   - jekyll-feed
   - jekyll-octicons
+
