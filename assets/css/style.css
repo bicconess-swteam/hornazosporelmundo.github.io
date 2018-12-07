@@ -1,9 +1,33 @@
-code {
-    font-family: $Monospace;
-    font-size: 0.8em;
+/**
+* header
+*/
+header {
+    width:70%;
+    position:fixed;
+    margin: 0 auto;
+    -webkit-font-smoothing:subpixel-antialiased;
 }
 
-.site-head {
+.site-header {
+    min-height: 55.95px;
+    position: relative; 
+}
+  
+.site-title {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.site-title img {
+    display:block;
+    margin:auto;
+}
+
+.site-header-info {
     margin: 0 auto;
     position: relative;
     float: left;
@@ -13,23 +37,41 @@ code {
 }
 
 .slogan {
+    clear: both;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 0;
     text-align:center;
 }
 
+
 .wrapper-footer {
-    width: 80%;
+    width: 70%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
     height: 100%;
-    border-top: 3px solid #F7CAC9;
     padding: 30px 0;
     overflow: hidden;}
 
-.footer-right a{
-    color: #574c4f;
-}
-.footer-right {
-    float: right;
+.footer-info {
+    border-top: 1px solid #91A8D0;
     text-decoration: none;
+    color: white;
+}
+
+.footer-info-code{
+    margin-top: 30px;
+}
+
+.footer-info-code a{
+    color: white;
+}
+sidebar {
+    width: 20%;
+    height: 100%;
+    position:fixed;
+    margin: 0 auto;
+    background-color: #91A8D0;
 }
