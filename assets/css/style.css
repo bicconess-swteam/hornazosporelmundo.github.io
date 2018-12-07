@@ -33,6 +33,7 @@ header {
     float: left;
     top: 50%;
     left: 50%;
+    border-bottom: 2px solid #91A8D0;
     transform: translate(-50%);
 }
 
@@ -45,7 +46,36 @@ header {
     text-align:center;
 }
 
+.site-header-nav {
+    clear: both;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
 
+.site-header-nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.site-header-nav ul li {
+    display:inline-block;
+}
+
+.site-header-nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/**
+* footer
+*/
 .wrapper-footer {
     width: 70%;
     height: 100%;
@@ -67,11 +97,4 @@ header {
 
 .footer-info-code a{
     color: white;
-}
-sidebar {
-    width: 20%;
-    height: 100%;
-    position:fixed;
-    margin: 0 auto;
-    background-color: #91A8D0;
 }
