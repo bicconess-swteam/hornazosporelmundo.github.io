@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 ---
 <!-- <div style="position: relative; margin-bottom:3%;">
    <img src="/img/coverPage.jpg" alt="Cover Page Image" />
