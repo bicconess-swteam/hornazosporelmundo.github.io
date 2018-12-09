@@ -1,3 +1,10 @@
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
 /**
 * header
 */
@@ -100,9 +107,42 @@ header {
     text-decoration: none;
 }
 
+section {
+    float: left;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    margin: 10px 30px;
+    width: 30%;
+}
+
+.spotify-widget {
+    text-align:center;
+}
+
+.spotify-widget iframe {
+    width: 100%;
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+.spotify-widget h3 {
+    text-align: center;
+    font-weight: bold;
+    line-height: 54px;
+    border-bottom: 2px solid #91A8D0;
+}
+
 /**
 * footer
 */
+footer {
+    clear: both;
+    margin-bottom: 0;
+}
+
 .wrapper-footer {
     width: 70%;
     height: 100%;
