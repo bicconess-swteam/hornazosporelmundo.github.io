@@ -131,29 +131,58 @@ aside {
 .spotify-widget h3 {
     text-align: center;
     font-weight: bold;
+    margin: auto;
+}
+
+.spotify-widget h4 {
+    text-align: center;
+    font-weight: 350;
     line-height: 54px;
     border-bottom: 2px solid #91A8D0;
 }
-
 /**
 * footer
 */
 footer {
     clear: both;
-    margin-bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-social-instagram {
+    padding: 220px 30px;
+    margin-bottom: 20px;
+    background-image: url(../images/footerInstagram.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #dbdbdb;
+}
+.footer-social-instagram a {
+    text-decoration: none;
+}
+
+.footer-social-instagram h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+    background-color: #dbdbdb;
+    color: #FA7268;
+    display: inline;
+    padding: 10px;
 }
 
 .wrapper-footer {
-    width: 70%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
-    height: 100%;
-    padding: 30px 0;
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 .footer-info {
     border-top: 1px solid #91A8D0;
+    margin-left: 30px;
+    margin-right: 30px;
     text-decoration: none;
     color: white;
 }
