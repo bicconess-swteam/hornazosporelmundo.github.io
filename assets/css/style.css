@@ -1,3 +1,18 @@
+body::-webkit-scrollbar              { 
+    width: 0.2em;
+}
+body::-webkit-scrollbar-button       { /* 2 */ }
+body::-webkit-scrollbar-track        {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-track-piece  { /* 4 */ }
+body::-webkit-scrollbar-thumb        {
+    background-color: #FA7268;
+    outline: 1px solid #FA7268;
+}
+body::-webkit-scrollbar-corner       { /* 6 */ }
+body::-webkit-resizer                { /* 7 */ }
+
 header,
 section,
 aside,
