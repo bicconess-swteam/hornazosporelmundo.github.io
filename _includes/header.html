@@ -9,71 +9,13 @@
             {{ site.slogan | escape }}
         </div>
     </div>
-    <div class="site-header-nav">
-        <nav>
+    <div class="site-header-nav"></div>
+        <nav class="menu-principal">
             <ul>
-                <li>
-                    <a class="site-nav-anchor" href="{{ "/" | relative_url }}">
-                        Quienes Somos
-                    </a>
-                </li>
-                <li>
-                    <a class="site-nav-anchor" href="{{ "/" | relative_url }}">
-                        Portada
-                    </a>
-                </li>
-                <li>
-                    <a class="site-nav-anchor" href="{{ "/" | relative_url }}">
-                        Contacto
-                    </a>
-                </li>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/about/">Sobre mí</a></li>
             </ul>
         </nav>
+        <h1><a href="/">Hornazos por el Mundo</a></h1>
     </div>
-    <div class="site-header-nav-section">
-            <nav>
-                <ul>
-                    <li>
-                        <a id="viajes" class="site-nav-anchor" href="">
-                            <img border="0" alt="viajes" 
-                                    onmouseover="this.src='{{ site.url }}/assets/images/imgViajesOnHover.png'"
-                                    onmouseout="this.src='{{ site.url }}/assets/images/imgViajes.png'"
-                                    src="{{ site.url }}/assets/images/imgViajes.png" width="160" height="160">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="restaurantes" class="site-nav-anchor" href="">
-                            <img border="0" alt="restaurantes" 
-                                    onmouseover="this.src='{{ site.url }}/assets/images/imgRestOnHover.png'" 
-                                    onmouseout="this.src='{{ site.url }}/assets/images/imgRest.png'" 
-                                    src="{{ site.url }}/assets/images/imgRest.png" width="160" height="160">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="tuppers" class="site-nav-anchor" href="">
-                            <img border="0" alt="tuppers" 
-                                    onmouseover="this.src='{{ site.url }}/assets/images/imgDeTuppersOnHover.png'" 
-                                    onmouseout="this.src='{{ site.url }}/assets/images/imgDeTuppers.png'" 
-                                    src="{{ site.url }}/assets/images/imgDeTuppers.png" width="160" height="160">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="indahouse" class="site-nav-anchor" href="">
-                            <img border="0" alt="indahouse" 
-                                    onmouseover="this.src='{{ site.url }}/assets/images/imgIndaHouseOnHover.png'" 
-                                    onmouseout="this.src='{{ site.url }}/assets/images/imgIndaHouse.png'" 
-                                    src="{{ site.url }}/assets/images/imgIndaHouse.png" width="160" height="160">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="decanhas" class="site-nav-anchor" href="">
-                            <img border="0" alt="decanhas" 
-                                    onmouseover="this.src='{{ site.url }}/assets/images/imgDeCanhasOnHover.png'" 
-                                    onmouseout="this.src='{{ site.url }}/assets/images/imgDeCanhas.png'" 
-                                    src="{{ site.url }}/assets/images/imgDeCanhas.png" width="160" height="160">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 </header>

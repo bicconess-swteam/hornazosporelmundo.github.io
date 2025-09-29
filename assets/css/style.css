@@ -1,212 +1,49 @@
-body::-webkit-scrollbar              { 
-    width: 0.2em;
-}
-body::-webkit-scrollbar-button       { /* 2 */ }
-body::-webkit-scrollbar-track        {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-body::-webkit-scrollbar-track-piece  { /* 4 */ }
-body::-webkit-scrollbar-thumb        {
-    background-color: #FA7268;
-    outline: 1px solid #FA7268;
-}
-body::-webkit-scrollbar-corner       { /* 6 */ }
-body::-webkit-resizer                { /* 7 */ }
-
-header,
-section,
-aside,
-footer {
-  margin: 0 1.5% 24px 1.5%;
-}
-
-/**
-* header
-*/
-header {
-    width:70%;
-    position:fixed;
-    margin: 0 auto;
-    -webkit-font-smoothing:subpixel-antialiased;
-    border-bottom: 2px solid #91A8D0;
-}
-
-.site-header {
-    min-height: 55.95px;
-    position: relative; 
-}
-  
-.site-title {
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 54px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    font-weight: bold;
-}
-
-.site-title img {
-    display:block;
-    margin:auto;
-}
-
-.site-header-info {
-    margin: 0 auto;
+.site-cover {
     position: relative;
-    float: left;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.site-cover img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+.site-cover-title {
+    position: absolute;
     top: 50%;
     left: 50%;
-    border-bottom: 2px solid #91A8D0;
-    transform: translate(-50%);
-}
-
-.slogan {
-    clear: both;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    text-align:center;
-}
-
-.site-header-nav {
-    clear: both;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-}
-
-.site-header-nav ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 30px auto;
-    padding: 0;
-    overflow: hidden;
-}
-
-.site-header-nav ul li {
-    display:inline-block;
-}
-
-.site-header-nav ul li a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
-.site-header-nav-section {
-    clear: both;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-}
-
-.site-header-nav-section ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 30px auto;
-    padding: 0;
-    overflow: hidden;
-}
-
-.site-header-nav-section ul li {
-    display:inline-block;
-}
-
-.site-header-nav-section ul li a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
-section {
-    float: left;
-    width: 63%;
-}
-
-aside {
-    float: right;
-    margin: 10px 30px;
-    width: 30%;
-}
-
-.spotify-widget {
-    text-align:center;
-}
-
-.spotify-widget iframe {
-    width: 100%;
-    margin:auto;
-    margin-bottom: 100px;
-}
-
-.spotify-widget h3 {
-    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
     font-weight: bold;
-    margin: auto;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.spotify-widget h4 {
-    text-align: center;
-    font-weight: 350;
-    line-height: 54px;
-    border-bottom: 2px solid #91A8D0;
-}
-/**
-* footer
-*/
-footer {
-    clear: both;
-    width: 100%;
-    margin: 0;
+.home .post-list {
+    list-style: none;
+    padding-left: 0;
 }
 
-.footer-social-instagram {
-    padding: 220px 30px;
-    margin-bottom: 20px;
-    background-image: url(../images/footerInstagram.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-color: #dbdbdb;
-}
-.footer-social-instagram a {
-    text-decoration: none;
+.home .post-list li {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
 }
 
-.footer-social-instagram h3 {
-    text-align: center;
-    font-weight: bolder;
-    font-style: italic;
-    text-decoration: none;
-    background-color: #dbdbdb;
+.home .post-link {
+    font-size: 1.5em;
     color: #FA7268;
-    display: inline;
-    padding: 10px;
-}
-
-.wrapper-footer {
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-}
-
-.footer-info {
-    border-top: 1px solid #91A8D0;
-    margin-left: 30px;
-    margin-right: 30px;
     text-decoration: none;
-    color: white;
 }
 
-.footer-info-code{
-    margin-top: 30px;
+.home .post-meta {
+    font-size: 0.9em;
+    color: #888;
 }
 
-.footer-info-code a{
-    color: white;
+.home .post-list p {
+    margin-top: 0.5rem;
+    line-height: 1.6;
 }

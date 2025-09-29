@@ -6,12 +6,22 @@
 {% assign locale = site.data['locales'][language] %}
 <html lang="{{ language }}{% if locale.lang_country %}-{{ locale.lang_country }}{% endif %}">
     {% include head.html %}
-    <body>
-        <div id="wrapper">
+        <body>
+        <div class="container">
             {% include header.html %}
-            {% include section.html %}
-            {% include aside.html %}
-            {% include footer.html %}
+            <main>
+                <h1>Recetas recientes</h1>
+                <ul class="recetas-lista">
+                    {% for post in site.posts %}
+                        <li class="receta-item">
+                            <a href="{{ post.url }}">
+                                <h2>{{ post.title }}</h2>
+                                <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </main>
         </div>
-    </body>
+        </body>
 </html>
